@@ -1,0 +1,64 @@
+/* Writte your code css here*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Clear part named 'Example' before to start  */
+
+/*Example-start*/
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttons h3 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.buttons .btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.buttons .btns .btn-one {
+    width: 200px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 30px auto;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 13px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+}
+
+.buttons .btns .btn-one:nth-child(1).bdrActive {
+    border: 1px solid #fff;
+}
+
+.buttons .btns .btn-one:nth-child(1) {
+    background: linear-gradient(90deg, #EC5C1A, #F6CE61);
+}
+
+.buttons .btns .btn-one:nth-child(2) {
+    background: linear-gradient(90deg, #1a39ec, #6189f6);
+}
+
+.buttons .btns .btn-one:nth-child(3) {
+    background: linear-gradient(90deg, #1bac0e, #61f686);
+}
+
+.buttons .btns .btn-one span {
+    color: #fff;
+}
+/*Example-end*/
